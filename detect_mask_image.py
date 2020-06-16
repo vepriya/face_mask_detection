@@ -18,8 +18,8 @@ args = vars(ap.parse_args())
 
 # load our serialized face detector model from disk
 print("[INFO] loading face detector model...")
-prototxtPath = "deploy.prototxt"
-weightsPath = "res10_300x300_ssd_iter_140000.caffemodel"
+prototxtPath = "face_detector\deploy.prototxt"
+weightsPath = "face_detector\res10_300x300_ssd_iter_140000.caffemodel"
 net = cv2.dnn.readNet(prototxtPath, weightsPath)
 
 # load the face mask detector model from disk
