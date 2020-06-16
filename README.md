@@ -8,5 +8,5 @@ with_mask(2500 images)\
 without_mask(2500 images)
 
 # Taining
-https://github.com/vepriya/face_mask_detection/blob/master/face_mask_detection_phases.png
+![alt tag](https://github.com/vepriya/face_mask_detection/blob/master/face_mask_detection_phases.png)
 
