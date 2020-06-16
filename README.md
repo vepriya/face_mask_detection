@@ -21,5 +21,5 @@ trained the fask_mask_detector in two phases:
 3. After detecting faces in image we will aplly our face mask classifier to each face  detected by face detector and face mask      classifier will classifiy whether the person is wearing mask or not
 
 # Prediction
-1 .To predict whether the person is wearing mask or not in a image run detect_mask_image.py and pass the input image in command line for    example:- python detect_mask_image_py --image example_01.png.
+1 .To predict whether the person is wearing mask or not in a image run detect_mask_image.py and pass the input image in command line for    example:- python detect_mask_image_py --image example_01.png \
 2. To predict whether the person is wearing mask or not in a video run detect_mask_video.py
