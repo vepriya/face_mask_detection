@@ -8,4 +8,5 @@ with_mask(2500 images)\
 without_mask(2500 images)
 
 # Taining
+https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_phases.png
 
