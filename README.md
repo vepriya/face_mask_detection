@@ -12,7 +12,7 @@ without_mask(2500 images)
 
 trained the fask_mask_detector in two phases:
 ### phase1:
-1. Load the face mask dataset(which contains images of only faces with and without mask) and  train fasce_mask_classifier with the help of tensorflow and keras.\
+1. Load the face mask dataset(which contains images of only faces with and without mask) and  train fasce_mask_classifier with the help    of tensorflow and keras.\
 2. Fine tunned a MobileNetV2 with new fresh fully connected head to build the classifier model and trained on dataset.
 
 ### phase2
